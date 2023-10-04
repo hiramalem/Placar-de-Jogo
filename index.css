@@ -1,0 +1,70 @@
+body{
+
+    background-image: url(placar.jpg);
+
+}
+
+h1{
+    filter: drop-shadow(5px 5px 15px black);
+    text-shadow: 5px 5px 8px black;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+
+}
+
+.containerP{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;   
+}
+
+
+.card{
+    background-color: white;    
+    min-height: 300px;    
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.resultado{
+    font-size: 100px;    
+    filter: drop-shadow(5px 5px 15px white);
+    text-shadow: 5px 5px 8px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    place-self: center;
+    width: 50%;
+    height: 30px;
+    margin: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+}
+
+#cardBan{
+
+    background-image: url(ban.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+#cardOla{
+
+    background-image: url(ola.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
